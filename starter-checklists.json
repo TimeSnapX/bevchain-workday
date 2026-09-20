@@ -1,0 +1,182 @@
+{
+  "appName": "BevChain Work Day",
+  "tagline": "Job-type checklists while you learn the ropes",
+  "notes": "Starter drafts for a new BevChain/Linfox HR driver in Brisbane. User is still learning \u2014 especially Kegs. Everything should be easy to edit later. Mark Kegs as 'still learning'. Australian English.",
+  "workDayShape": {
+    "wake": "4:00am",
+    "start": "5:00am",
+    "finishWindow": "2:00pm\u20135:00pm",
+    "phases": [
+      "Pre-start / yard",
+      "On the truck / route",
+      "At customer site",
+      "After last drop / return"
+    ]
+  },
+  "jobTypes": [
+    {
+      "id": "epj",
+      "name": "Electronic Pallet Jack",
+      "shortName": "EPJ",
+      "status": "learning",
+      "summary": "Powered pallet jack for palletised drops.",
+      "sections": [
+        {
+          "title": "Before you leave the yard",
+          "items": [
+            "Check roster / run sheet and note EPJ sites",
+            "PPE on (hi-vis, safety boots, gloves as required)",
+            "Inspect EPJ: battery charge, forks, wheels, controls, emergency stop",
+            "Confirm EPJ loads correctly onto truck / is secured for travel",
+            "Walk truck: load secure, straps/gates, lights, tyres, mirrors",
+            "Paperwork / handheld / scanner charged and working"
+          ]
+        },
+        {
+          "title": "At the customer site",
+          "items": [
+            "Park safely, hazard lights / cones if needed, check access path",
+            "Find receiving contact / bay and confirm drop location",
+            "Unload EPJ safely, check path for people, gutters, slopes, wet floors",
+            "Move pallets one controlled move at a time \u2014 no rushing corners",
+            "Place pallets where directed; don't block fire exits or traffic",
+            "Get POD / signature / scan confirmation before leaving",
+            "Reload EPJ onto truck and re-secure for road"
+          ]
+        },
+        {
+          "title": "After the drop",
+          "items": [
+            "Update run sheet / handheld status",
+            "Note any site access issues for next time",
+            "Check remaining charge / damage on EPJ",
+            "Move to next stop or return to yard"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hand-unload",
+      "name": "Hand Unload",
+      "shortName": "Hand Unload",
+      "status": "learning",
+      "summary": "Manual case / carton unload where EPJ or pallet drop isn't used.",
+      "sections": [
+        {
+          "title": "Before you leave the yard",
+          "items": [
+            "Check run sheet for hand-unload sites and case counts",
+            "PPE on; grab gloves if cases are rough or cold",
+            "Confirm load plan \u2014 heavy / crushables / cold chain where relevant",
+            "Walk truck: load secure, doors/gates, lights, tyres, mirrors",
+            "Handheld / scanner charged"
+          ]
+        },
+        {
+          "title": "At the customer site",
+          "items": [
+            "Park safely and check the path from truck to stock room / coolroom",
+            "Find receiving contact; confirm where product goes",
+            "Open doors carefully; mind falling cartons",
+            "Lift with legs, keep loads close, don't twist under weight",
+            "Stack to site standard \u2014 stable, labelled face out where required",
+            "Keep walkways clear as you work",
+            "Count / scan against invoice or pick list",
+            "Get POD / signature before leaving",
+            "Close and secure truck for road"
+          ]
+        },
+        {
+          "title": "After the drop",
+          "items": [
+            "Update run sheet / handheld",
+            "Note awkward sites, stairs, long carries, or missing gear",
+            "Hydrate / reset before next stop",
+            "Move to next stop or return to yard"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kegs",
+      "name": "Kegs",
+      "shortName": "Kegs",
+      "status": "not-started",
+      "badge": "Still learning \u2014 fill this in as you train",
+      "summary": "Keg drops and returns. Starter shell only until you've done the training.",
+      "sections": [
+        {
+          "title": "Before you leave the yard",
+          "items": [
+            "Confirm which sites are keg drops / keg returns",
+            "Check keg count, full vs empty, and any deposit tags",
+            "Confirm correct couplings / fittings if required for the run",
+            "Secure kegs for travel (no rolling freights)",
+            "PPE and gloves ready"
+          ]
+        },
+        {
+          "title": "At the customer site (draft \u2014 refine after training)",
+          "items": [
+            "Park and check path for slopes, steps, and wet floors",
+            "Find cellar / coolroom contact and drop point",
+            "Move kegs with controlled rolls \u2014 never drop or bounce",
+            "Place fulls where directed; collect empties / returns as listed",
+            "Watch fingers and toes around couplings and rims",
+            "Confirm counts (full out / empty back) before leaving",
+            "Get POD / signature",
+            "Re-secure remaining kegs on truck"
+          ]
+        },
+        {
+          "title": "After the drop",
+          "items": [
+            "Update run sheet with kegs delivered and returned",
+            "Note site quirks (stairs, lift, long roll, tight cellar)",
+            "Add anything your trainer teaches that isn't on this list yet"
+          ]
+        }
+      ]
+    }
+  ],
+  "sharedEveryJob": {
+    "title": "Every job \u2014 do these regardless of type",
+    "items": [
+      "Fatigue check \u2014 fit to drive and work",
+      "Phone / radio / emergency contacts known",
+      "Customer site rules followed (induction, sign-in, speed, PPE)",
+      "Incident / near-miss reported the same day",
+      "Truck left roadworthy between stops"
+    ]
+  },
+  "dayBaseline": {
+    "title": "Every work day (shared)",
+    "sitesNote": "Main stops so far: alcohol, mainly Liquorland.",
+    "sections": [
+      {
+        "title": "Pre-departure",
+        "items": [
+          "Truck already loaded (~12\u201313 pallets for 2\u20133 stops)",
+          "Weighbridge before leaving depot",
+          "Weigh tickets: ~6.5t front axles, ~16.5t rear (~23t total)",
+          "Start ~5am; first drop often ~7am"
+        ]
+      },
+      {
+        "title": "On site / delivery",
+        "items": [
+          "Stick to allocated windows (usually ~3 hours)",
+          "Tablet: verify and confirm required business/delivery info",
+          "Pallets match load \u2192 no pallet docket",
+          "Under/over pallets \u2192 pallet docket, get it signed for what was actually received"
+        ]
+      },
+      {
+        "title": "Driving hours",
+        "items": [
+          "Log book for hours and breaks"
+        ]
+      }
+    ]
+  }
+}
